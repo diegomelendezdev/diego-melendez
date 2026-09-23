@@ -1,0 +1,24 @@
+# Dependencias y carpetas generadas
+node_modules/
+dist/
+build/
+
+# Variables de entorno y secretos (nunca se suben)
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*credentials*
+
+# Logs
+*.log
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Configuración local del editor / herramientas
+.vscode/
+.claude/

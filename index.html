@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Diego Meléndez | Páginas web y asistentes con IA en Santa Marta</title>
+  <meta name="description" content="Páginas web, asistentes de WhatsApp con inteligencia artificial y automatizaciones para negocios de Santa Marta. Cotiza sin costo.">
+  <meta name="author" content="Diego Meléndez">
+  <meta name="theme-color" content="#f7f2eb">
+  <meta name="color-scheme" content="light">
+
+  <!-- Vista previa al compartir el enlace (WhatsApp, Facebook, LinkedIn, X).
+       Cuando la web tenga dominio, cambia og:image por la dirección completa
+       (ej. https://tudominio.com/img/og-image.jpg) y activa og:url y canonical. -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_CO">
+  <meta property="og:site_name" content="Diego Meléndez">
+  <meta property="og:title" content="Diego Meléndez | Páginas web y asistentes con IA en Santa Marta">
+  <meta property="og:description" content="Páginas web, asistentes de WhatsApp con inteligencia artificial y automatizaciones para negocios de Santa Marta. Cotiza sin costo.">
+  <meta property="og:image" content="img/og-image.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Diego Meléndez · Desarrollo web y Consultor IA · Santa Marta, Colombia">
+<!-- <meta property="og:url" content="https://tudominio.com/"> -->
+  <!-- <link rel="canonical" href="https://tudominio.com/"> -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+  <!-- Tipografía (Google Fonts): se carga sin bloquear la página -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;display=swap"></noscript>
+
+  <link rel="stylesheet" href="styles.css?v=20260923">
+
+  <!-- Activa las animaciones solo si el JavaScript arranca (si falla, todo queda visible) -->
+  <script>
+    (function (d) {
+      d.classList.add("js");
+      setTimeout(function () { if (!d.classList.contains("is-ready")) d.classList.remove("js"); }, 3000);
+    })(document.documentElement);
+  </script>
+  <script defer src="main.js?v=20260923"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Diego Meléndez",
+    "description": "Páginas web, asistentes de WhatsApp con inteligencia artificial y automatizaciones para negocios de Santa Marta. Cotiza sin costo.",
+    "email": "diegomelendez.dev@gmail.com",
+    "telephone": "+573226434122",
+    "areaServed": { "@type": "City", "name": "Santa Marta" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Santa Marta", "addressCountry": "CO" }
+  }
+  </script>
+</head>
+<body>
+  <!-- Íconos y recursos gráficos reutilizables -->
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <defs>
+      <linearGradient id="g-sun" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#ffc15e"/>
+        <stop offset="1" stop-color="#ff6b4a"/>
+      </linearGradient>
+      <filter id="f-shadow" x="-20%" y="-20%" width="140%" height="170%">
+        <feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#14213d" flood-opacity=".14"/>
+      </filter>
+    </defs>
+    <symbol id="i-mark" viewBox="0 0 32 32">
+      <circle cx="16" cy="16" r="16" fill="#14213d"/>
+      <path d="M8 18a8 8 0 0 1 16 0Z" fill="url(#g-sun)"/>
+      <path d="M6 18h20" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M10 22h12M13 25.5h6" stroke="#12a59c" stroke-width="1.6" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24">
+      <path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24">
+      <rect x="3" y="5" width="18" height="14" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/>
+      <path d="m4.5 7.5 7.5 5.5 7.5-5.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24">
+      <path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12Z" fill="currentColor"/>
+      <circle cx="12" cy="10" r="2.6" fill="#fff"/>
+    </symbol>
+    <symbol id="i-ticks" viewBox="0 0 18 12">
+      <path d="M1 6.5 4 9.5 10 2.5M7.5 8.5l1 1L15 2.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-star" viewBox="-5 -5 10 10">
+      <path d="M0-4.6 1.18-1.62 4.37-1.42 1.9.62 2.7 3.72 0 2-2.7 3.72-1.9.62-4.37-1.42-1.18-1.62Z" fill="currentColor"/>
+    </symbol>
+  </svg>
+
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- ============ Navegación ============ -->
+  <header class="site-header">
+    <nav class="nav glass" aria-label="Principal">
+      <a class="brand" href="#inicio">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><use href="#i-mark"/></svg>
+        <span>Diego Meléndez</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#demo">Demo</a></li>
+        <li><a href="#como-trabajo">Cómo trabajo</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+
+      <a class="btn btn--sm nav-cta" href="https://wa.me/573226434122?text=Hola%20Diego%2C%20vi%20tu%20p%C3%A1gina%20y%20quiero%20informaci%C3%B3n" target="_blank" rel="noopener">
+        <span class="btn-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-wa"/></svg></span>
+        <span>Escríbeme por WhatsApp</span>
+      </a>
+
+      <!-- Menú del celular: funciona incluso sin JavaScript -->
+      <details class="nav-menu">
+        <summary class="nav-toggle">
+          <span class="sr-only">Menú</span>
+          <span class="nav-toggle-icon" aria-hidden="true"></span>
+        </summary>
+        <div class="nav-panel glass">
+          <ul>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#demo">Demo</a></li>
+            <li><a href="#como-trabajo">Cómo trabajo</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+          <a class="btn btn--block" href="https://wa.me/573226434122?text=Hola%20Diego%2C%20vi%20tu%20p%C3%A1gina%20y%20quiero%20informaci%C3%B3n" target="_blank" rel="noopener">
+            <span class="btn-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-wa"/></svg></span>
+            <span>Escríbeme por WhatsApp</span>
+          </a>
+        </div>
+      </details>
+    </nav>
+  </header>
+
+  <main id="contenido">
+
+    <!-- ============ Portada ============ -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title" data-play>
+      <div class="mesh mesh--hero" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1 class="hero-title" id="hero-title">Tu negocio en internet, trabajando para ti las <span class="hl">24 horas</span>.</h1>
+          <p class="hero-sub">Creo páginas web, asistentes de WhatsApp con inteligencia artificial y automatizaciones para negocios de Santa Marta. Tú atiendes tu negocio; la tecnología se encarga del resto.</p>
+          <a class="btn btn--lg" href="https://wa.me/573226434122?text=Hola%20Diego%2C%20vi%20tu%20p%C3%A1gina%20y%20quiero%20informaci%C3%B3n" target="_blank" rel="noopener" data-magnetic data-hero-cta>
+            <span class="btn-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-wa"/></svg></span>
+            <span>Escríbeme por WhatsApp</span>
+            <svg class="btn-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg>
+          </a>
+        </div>
+
+        <!-- Reloj: el marcador marca la hora (12 horas) y el sol/luna recorren el cielo según la hora real de Santa Marta -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="dial-wrap">
+            <div class="dial" data-dial data-phase="atardecer">
+              <svg class="dial-svg" viewBox="0 0 440 440" focusable="false">
+                <defs>
+                  <linearGradient id="dl-sky" x1="0" y1="0" x2="0" y2="1">
+                    <stop class="dl-sky-a" offset="0"/>
+                    <stop class="dl-sky-b" offset="1"/>
+                  </linearGradient>
+                  <linearGradient id="dl-sea" x1="0" y1="0" x2="0" y2="1">
+                    <stop class="dl-sea-a" offset="0"/>
+                    <stop class="dl-sea-b" offset="1"/>
+                  </linearGradient>
+                  <radialGradient id="dl-sun" cx=".4" cy=".35" r=".7">
+                    <stop offset="0" stop-color="#fff4cf"/>
+                    <stop offset=".5" stop-color="#ffc15e"/>
+                    <stop offset="1" stop-color="#ff8047"/>
+                  </radialGradient>
+                  <radialGradient id="dl-glow">
+                    <stop offset="0" stop-color="#ffcf7a" stop-opacity=".75"/>
+                    <stop offset="1" stop-color="#ffcf7a" stop-opacity="0"/>
+                  </radialGradient>
+                  <clipPath id="dl-clip"><circle cx="220" cy="220" r="150"/></clipPath>
+                </defs>
+
+                <circle class="dl-track" cx="220" cy="220" r="193" fill="none"/>
+                <circle class="dl-ticks-min" cx="220" cy="220" r="193" fill="none" pathLength="240" stroke-dasharray=".2 3.8" stroke-dashoffset=".1"/>
+                <circle class="dl-ticks" cx="220" cy="220" r="193" fill="none" pathLength="240" stroke-dasharray=".5 19.5" stroke-dashoffset=".25"/>
+                <circle class="dl-ticks-major" cx="220" cy="220" r="193" fill="none" pathLength="240" stroke-dasharray=".9 59.1" stroke-dashoffset=".45"/>
+                <g class="dl-labels">
+                  <text x="220" y="57" text-anchor="middle">12</text>
+                  <text x="389" y="225" text-anchor="middle">3</text>
+                  <text x="220" y="393" text-anchor="middle">6</text>
+                  <text x="51" y="225" text-anchor="middle">9</text>
+                </g>
+
+                <g clip-path="url(#dl-clip)">
+                  <rect x="70" y="70" width="300" height="152" fill="url(#dl-sky)"/>
+                  <g class="dl-stars" fill="#fff">
+                    <circle cx="140" cy="112" r="1.4"/><circle cx="178" cy="92" r="1"/><circle cx="206" cy="130" r="1.2"/>
+                    <circle cx="252" cy="100" r="1.5"/><circle cx="292" cy="126" r="1"/><circle cx="318" cy="160" r="1.3"/>
+                    <circle cx="118" cy="160" r="1"/><circle cx="236" cy="160" r="1"/><circle cx="160" cy="140" r=".9"/>
+                    <circle cx="276" cy="84" r="1.1"/>
+                  </g>
+                  <path class="dl-path" d="M115 220a105 105 0 0 1 210 0" fill="none"/>
+                  <g class="dl-rot dl-moon"><path d="M220 103a12 12 0 1 0 0 24a14 14 0 0 1 0-24Z" fill="#fdf1c7"/></g>
+                  <g class="dl-rot">
+                    <circle cx="220" cy="115" r="40" fill="url(#dl-glow)"/>
+                    <circle cx="220" cy="115" r="17" fill="url(#dl-sun)"/>
+                  </g>
+                  <!-- Sierra Nevada al oriente -->
+                  <path class="dl-sierra" d="M70 222V200l18-12 12 7 22-26 10 7 12-14 22 26 12-6 24 40Z"/>
+                  <path d="M122 169l10 7 12-14 6 7-7 1-5-3-6 5-6-2Z" fill="#fff" opacity=".9"/>
+                  <!-- Mar Caribe -->
+                  <rect x="70" y="220" width="300" height="152" fill="url(#dl-sea)"/>
+                  <g class="dl-waves" stroke="#fff" stroke-linecap="round" stroke-width="2">
+                    <path d="M104 238h38M176 248h54M262 240h30M128 266h28M208 276h46M150 296h38M246 302h30"/>
+                  </g>
+                  <!-- El Morro y su faro, al occidente -->
+                  <path class="dl-morro" d="M286 221c3-13 12-21 22-21s19 8 23 21Z"/>
+                  <rect x="305" y="186" width="5" height="15" rx="1" fill="#fff"/>
+                  <path d="M304 187h7l-3.5-6Z" fill="#ff6b4a"/>
+                </g>
+                <circle class="dl-rim" cx="220" cy="220" r="150" fill="none"/>
+
+                <g class="dl-hand">
+                  <circle class="dl-marker-halo" cx="220" cy="27" r="13"/>
+                  <circle class="dl-marker" cx="220" cy="27" r="7"/>
+                </g>
+              </svg>
+            </div>
+
+            <div class="bubble bubble--in glass">
+              <span class="bubble-avatar"></span>
+              <span class="bubble-lines"><i style="--w:92%"></i><i style="--w:58%"></i></span>
+            </div>
+            <div class="bubble bubble--typing glass"><span class="typing"><i></i><i></i><i></i></span></div>
+            <div class="bubble bubble--out">
+              <span class="bubble-lines"><i style="--w:96%"></i><i style="--w:74%"></i><i style="--w:40%"></i></span>
+              <svg class="bubble-ticks" viewBox="0 0 18 12" focusable="false"><use href="#i-ticks"/></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Servicios ============ -->
+    <section class="section services" id="servicios" aria-labelledby="servicios-title">
+      <div class="mesh mesh--services" aria-hidden="true"></div>
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <p class="eyebrow">Servicios</p>
+          <h2 id="servicios-title">¿En qué te puedo ayudar?</h2>
+        </header>
+
+        <div class="services-grid">
+          <article class="service card-glass" data-reveal>
+            <div class="vignette vignette--web" aria-hidden="true" data-play>
+              <svg viewBox="0 0 320 200" focusable="false">
+                <defs>
+                  <linearGradient id="vw-sky" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0" stop-color="#ffb499"/>
+                    <stop offset="1" stop-color="#ffe0c2"/>
+                  </linearGradient>
+                  <clipPath id="vw-screen"><rect x="160" y="30" width="112" height="200" rx="15"/></clipPath>
+                </defs>
+                <rect x="154" y="24" width="124" height="212" rx="21" fill="#14213d"/>
+                <g clip-path="url(#vw-screen)">
+                  <rect x="160" y="30" width="112" height="200" fill="#fffaf4"/>
+                  <circle cx="172" cy="44" r="4.5" fill="#ff6b4a"/>
+                  <rect x="181" y="42" width="30" height="4" rx="2" fill="#14213d" opacity=".7"/>
+                  <path d="M252 40h10M252 44h10M252 48h10" stroke="#14213d" stroke-width="1.8" stroke-linecap="round" opacity=".55"/>
+                  <rect x="166" y="56" width="100" height="54" rx="9" fill="url(#vw-sky)"/>
+                  <circle cx="238" cy="84" r="10" fill="#ffc15e"/>
+                  <path d="M166 86h100v15a9 9 0 0 1-9 9h-82a9 9 0 0 1-9-9Z" fill="#12a59c"/>
+                  <path d="M178 94h18M206 99h24M240 94h14" stroke="#fff" stroke-width="1.6" stroke-linecap="round" opacity=".7"/>
+                  <rect x="166" y="120" width="76" height="7" rx="3.5" fill="#14213d"/>
+                  <rect x="166" y="132" width="54" height="5" rx="2.5" fill="#14213d" opacity=".3"/>
+                  <rect x="166" y="145" width="52" height="15" rx="7.5" fill="#25d366"/>
+                  <circle cx="171" cy="173" r="4.6" fill="none" stroke="#14213d" stroke-opacity=".45" stroke-width="1.4"/>
+                  <path d="M171 170.6v2.8l1.9 1.2" fill="none" stroke="#14213d" stroke-opacity=".45" stroke-width="1.3" stroke-linecap="round"/>
+                  <rect x="180" y="171" width="46" height="4" rx="2" fill="#14213d" opacity=".25"/>
+                  <rect x="166" y="184" width="100" height="40" rx="8" fill="#d6f2ec"/>
+                  <path d="M166 204h100M198 184v40M236 184v40" stroke="#fff" stroke-width="3"/>
+                  <path d="M217 208c-4.5-5-7-8.3-7-11.5a7 7 0 0 1 14 0c0 3.2-2.5 6.5-7 11.5Z" fill="#ff6b4a"/>
+                  <circle cx="217" cy="196.5" r="2.4" fill="#fff"/>
+                </g>
+                <rect x="16" y="36" width="160" height="34" rx="17" fill="#fff" filter="url(#f-shadow)"/>
+                <circle cx="35" cy="52" r="6" fill="none" stroke="#14213d" stroke-width="2"/>
+                <path d="m39.5 56.5 4 4" stroke="#14213d" stroke-width="2" stroke-linecap="round"/>
+                <rect x="52" y="50" width="74" height="5" rx="2.5" fill="#14213d" opacity=".25"/>
+                <rect class="v-caret" x="131" y="45" width="1.8" height="15" rx=".9" fill="#ff6b4a"/>
+                <rect x="28" y="82" width="140" height="66" rx="13" fill="#fff" filter="url(#f-shadow)"/>
+                <circle cx="45" cy="99" r="6.5" fill="#ff6b4a"/>
+                <rect x="57" y="95" width="70" height="7" rx="3.5" fill="#14213d" opacity=".8"/>
+                <g color="#ffb938">
+                  <use href="#i-star" x="56" y="107" width="9" height="9"/>
+                  <use href="#i-star" x="66" y="107" width="9" height="9"/>
+                  <use href="#i-star" x="76" y="107" width="9" height="9"/>
+                  <use href="#i-star" x="86" y="107" width="9" height="9"/>
+                  <use href="#i-star" x="96" y="107" width="9" height="9"/>
+                </g>
+                <rect x="40" y="126" width="112" height="4" rx="2" fill="#14213d" opacity=".18"/>
+                <rect x="40" y="135" width="80" height="4" rx="2" fill="#14213d" opacity=".18"/>
+                <path d="M146 116v19l4.6-4.4 3.6 7.8 3.2-1.5-3.6-7.7h6.4Z" fill="#14213d" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="service-body">
+              <h3>Páginas web</h3>
+              <p>Una página moderna, rápida y pensada para celular, donde tus clientes encuentran lo que ofreces, tus horarios y cómo contactarte. Que te encuentren en Google y te escriban directo.</p>
+            </div>
+          </article>
+
+          <article class="service card-glass" data-reveal>
+            <div class="vignette vignette--ai" aria-hidden="true" data-play>
+              <svg viewBox="0 0 320 200" focusable="false">
+                <defs>
+                  <linearGradient id="va-avatar" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0" stop-color="#ffd3b0"/>
+                    <stop offset="1" stop-color="#ff6b4a"/>
+                  </linearGradient>
+                  <clipPath id="va-win"><rect x="42" y="16" width="236" height="220" rx="18"/></clipPath>
+                </defs>
+                <rect x="42" y="16" width="236" height="220" rx="18" fill="#fff" filter="url(#f-shadow)"/>
+                <g clip-path="url(#va-win)">
+                  <rect x="42" y="16" width="236" height="40" fill="#0b6e5f"/>
+                  <rect x="42" y="56" width="236" height="180" fill="#efeae2"/>
+                </g>
+                <circle cx="66" cy="36" r="11" fill="url(#va-avatar)"/>
+                <path d="M77 21.5l1.6 3.4 3.4 1.6-3.4 1.6-1.6 3.4-1.6-3.4-3.4-1.6 3.4-1.6Z" fill="#ffc15e" stroke="#0b6e5f" stroke-width="1"/>
+                <rect x="85" y="29" width="58" height="6" rx="3" fill="#fff"/>
+                <circle cx="88" cy="42.5" r="2.6" fill="#25d366"/>
+                <rect x="94" y="40.5" width="34" height="4" rx="2" fill="#fff" opacity=".6"/>
+                <g class="msg msg-1">
+                  <rect x="54" y="66" width="120" height="30" rx="10" fill="#fff"/>
+                  <rect x="64" y="75" width="86" height="4.5" rx="2.25" fill="#14213d" opacity=".55"/>
+                  <rect x="64" y="84" width="58" height="4.5" rx="2.25" fill="#14213d" opacity=".3"/>
+                </g>
+                <g class="msg msg-2">
+                  <rect x="124" y="104" width="142" height="62" rx="10" fill="#d9fdd3"/>
+                  <rect x="131" y="111" width="42" height="42" rx="7" fill="#ffe2c9"/>
+                  <circle cx="152" cy="132" r="13" fill="#fff"/>
+                  <circle cx="152" cy="132" r="8" fill="#ff8a5c"/>
+                  <circle cx="149" cy="129" r="2.2" fill="#ffc15e"/>
+                  <rect x="180" y="113" width="64" height="5" rx="2.5" fill="#14213d" opacity=".7"/>
+                  <rect x="180" y="123" width="46" height="4" rx="2" fill="#14213d" opacity=".3"/>
+                  <rect x="180" y="136" width="34" height="13" rx="6.5" fill="#25d366"/>
+                  <use href="#i-ticks" x="244" y="153" width="15" height="10" color="#53bdeb"/>
+                </g>
+                <g class="msg msg-3">
+                  <rect x="54" y="174" width="88" height="24" rx="10" fill="#fff"/>
+                  <rect x="64" y="184" width="60" height="4.5" rx="2.25" fill="#14213d" opacity=".5"/>
+                </g>
+                <g class="msg msg-4">
+                  <rect x="214" y="176" width="52" height="22" rx="11" fill="#d9fdd3"/>
+                  <circle class="td" cx="229" cy="187" r="3" fill="#0b6e5f"/>
+                  <circle class="td" cx="240" cy="187" r="3" fill="#0b6e5f"/>
+                  <circle class="td" cx="251" cy="187" r="3" fill="#0b6e5f"/>
+                </g>
+              </svg>
+            </div>
+            <div class="service-body">
+              <h3>Asistentes de WhatsApp con IA</h3>
+              <p>Un asistente que responde a tus clientes al instante, a cualquier hora: resuelve preguntas, muestra tus productos y toma pedidos o reservas. Cuando el cliente está listo para comprar, te lo pasa a ti.</p>
+            </div>
+          </article>
+
+          <article class="service card-glass" data-reveal>
+            <div class="vignette vignette--auto" aria-hidden="true" data-play>
+              <svg viewBox="0 0 320 200" focusable="false">
+                <g fill="none" stroke="#14213d" stroke-opacity=".22" stroke-width="2" stroke-dasharray="3 5" stroke-linecap="round">
+                  <path d="M82 100H132"/>
+                  <path d="M188 100h18a8 8 0 0 0 8-8V62a8 8 0 0 1 8-8h14"/>
+                  <path d="M188 100h18a8 8 0 0 1 8 8v30a8 8 0 0 0 8 8h14"/>
+                </g>
+                <circle class="flow-dot flow-dot--a" cx="82" cy="100" r="4.5" fill="#ff6b4a"/>
+                <circle class="flow-dot flow-dot--b" cx="82" cy="100" r="4.5" fill="#ff6b4a"/>
+                <!-- datos -->
+                <rect x="26" y="72" width="56" height="56" rx="15" fill="#fff" filter="url(#f-shadow)"/>
+                <rect x="41" y="89" width="26" height="6" fill="#12a59c" opacity=".25"/>
+                <rect x="40" y="88" width="28" height="24" rx="4" fill="none" stroke="#12a59c" stroke-width="2"/>
+                <path d="M40 96h28M40 104h28M50 88v24" stroke="#12a59c" stroke-width="2"/>
+                <!-- automatización -->
+                <rect x="132" y="72" width="56" height="56" rx="15" fill="#ff6b4a" filter="url(#f-shadow)"/>
+                <path d="M163 84l-11 18h8.5l-3 14 11.5-19h-8.5Z" fill="#fff"/>
+                <!-- recordatorio -->
+                <rect x="236" y="26" width="56" height="56" rx="15" fill="#fff" filter="url(#f-shadow)"/>
+                <path d="M256 62h16c-2-2.5-2.6-4.6-2.6-8.4a5.4 5.4 0 0 0-10.8 0c0 3.8-.6 5.9-2.6 8.4Z" fill="none" stroke="#14213d" stroke-width="2" stroke-linejoin="round"/>
+                <path d="M261.5 65.5a2.6 2.6 0 0 0 5 0" fill="none" stroke="#14213d" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="271" cy="44" r="4" fill="#ff6b4a"/>
+                <!-- seguimiento -->
+                <rect x="236" y="118" width="56" height="56" rx="15" fill="#fff" filter="url(#f-shadow)"/>
+                <circle cx="261" cy="140" r="6" fill="none" stroke="#14213d" stroke-width="2"/>
+                <path d="M250 160c1.5-5.5 5.6-8.4 11-8.4s9.5 2.9 11 8.4" fill="none" stroke="#14213d" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="275" cy="136" r="7" fill="#25d366"/>
+                <path d="m271.8 136 2.2 2.2 4-4.2" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <!-- encendido -->
+                <rect x="26" y="152" width="40" height="22" rx="11" fill="#25d366"/>
+                <circle cx="55" cy="163" r="8" fill="#fff"/>
+                <rect x="74" y="156" width="58" height="5" rx="2.5" fill="#14213d" opacity=".45"/>
+                <rect x="74" y="166" width="38" height="4" rx="2" fill="#14213d" opacity=".22"/>
+                <!-- tiempo ahorrado -->
+                <rect x="26" y="26" width="96" height="30" rx="15" fill="#fff" filter="url(#f-shadow)"/>
+                <circle cx="42" cy="41" r="6.5" fill="none" stroke="#12a59c" stroke-width="2"/>
+                <path d="M42 37.5V41l2.5 1.6" fill="none" stroke="#12a59c" stroke-width="1.8" stroke-linecap="round"/>
+                <rect x="55" y="38.5" width="52" height="5" rx="2.5" fill="#14213d" opacity=".3"/>
+              </svg>
+            </div>
+            <div class="service-body">
+              <h3>Automatizaciones</h3>
+              <p>Esas tareas repetitivas que te quitan horas (copiar datos, enviar recordatorios, hacer seguimiento a clientes) se pueden hacer solas. Menos trabajo manual, menos errores y más tiempo para lo importante.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Demo ============ -->
+    <section class="section demo" id="demo" aria-labelledby="demo-title">
+      <div class="mesh mesh--demo" aria-hidden="true"></div>
+      <div class="container">
+        <div class="demo-panel card-glass" data-reveal>
+          <div class="demo-copy">
+            <p class="eyebrow">Demo</p>
+            <h2 id="demo-title">Mira un ejemplo funcionando</h2>
+            <p>Esta es una página de demostración para un restaurante, con menú, disponibilidad de mesas en tiempo real y un chat de ejemplo. Así podría verse tu negocio.</p>
+            <!-- Demo del restaurante: se abre en una pestaña nueva para no salir de esta página -->
+            <a class="btn btn--coral btn--lg" href="https://emojidamd123-creator.github.io/mestral-demo/" target="_blank" rel="noopener" data-magnetic>
+              <span>Ver el demo</span>
+              <svg class="btn-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg>
+            </a>
+          </div>
+
+          <div class="demo-visual" aria-hidden="true" data-play>
+            <svg class="phone" viewBox="0 0 260 520" focusable="false">
+              <defs>
+                <linearGradient id="dp-photo" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#ffe6cc"/>
+                  <stop offset="1" stop-color="#ffc3a3"/>
+                </linearGradient>
+                <clipPath id="dp-screen"><rect x="10" y="10" width="240" height="500" rx="32"/></clipPath>
+              </defs>
+              <rect width="260" height="520" rx="42" fill="#14213d"/>
+              <g clip-path="url(#dp-screen)">
+                <rect x="10" y="10" width="240" height="500" fill="#fffaf4"/>
+                <rect x="28" y="24" width="24" height="6" rx="3" fill="#14213d" opacity=".75"/>
+                <rect x="204" y="24" width="28" height="6" rx="3" fill="#14213d" opacity=".75"/>
+                <rect x="102" y="20" width="56" height="16" rx="8" fill="#14213d"/>
+                <circle cx="38" cy="62" r="10" fill="#ff6b4a"/>
+                <circle cx="38" cy="62" r="4" fill="#fff"/>
+                <rect x="54" y="58" width="58" height="8" rx="4" fill="#14213d"/>
+                <path d="M208 56h18M208 62h18M208 68h18" stroke="#14213d" stroke-width="2.2" stroke-linecap="round"/>
+                <!-- plato típico: pescado frito, patacones y limón -->
+                <rect x="22" y="84" width="216" height="150" rx="18" fill="url(#dp-photo)"/>
+                <path d="M22 112h216M22 142h216M22 172h216M22 202h216" stroke="#fff" stroke-opacity=".35" stroke-width="6"/>
+                <ellipse cx="130" cy="170" rx="64" ry="12" fill="#14213d" opacity=".08"/>
+                <circle cx="130" cy="158" r="60" fill="#fff"/>
+                <circle cx="130" cy="158" r="47" fill="#fff8ef" stroke="#f1e0cc" stroke-width="2"/>
+                <g transform="rotate(-16 122 150)">
+                  <ellipse cx="120" cy="150" rx="33" ry="14" fill="#e3953f"/>
+                  <path d="M151 150l19-13v26Z" fill="#cc7a2c"/>
+                  <path d="M104 141q6 9 0 18M114 139q6 11 0 22M124 138q6 12 0 24M134 139q5 11 0 22" fill="none" stroke="#b9661f" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+                  <circle cx="96" cy="146" r="2.8" fill="#14213d"/>
+                </g>
+                <circle cx="156" cy="178" r="11" fill="#f5c451" stroke="#dba43b" stroke-width="2"/>
+                <circle cx="170" cy="158" r="10" fill="#f5c451" stroke="#dba43b" stroke-width="2"/>
+                <circle cx="136" cy="190" r="10" fill="#f5c451" stroke="#dba43b" stroke-width="2"/>
+                <path d="M92 172a13 13 0 0 0 26 0Z" fill="#8cc152"/>
+                <path d="M96 172a9 9 0 0 0 18 0Z" fill="#d4ec9e"/>
+                <rect x="22" y="252" width="150" height="12" rx="6" fill="#14213d"/>
+                <rect x="22" y="272" width="104" height="7" rx="3.5" fill="#14213d" opacity=".3"/>
+                <rect x="22" y="292" width="100" height="34" rx="17" fill="#ff6b4a"/>
+                <rect x="129" y="293" width="84" height="32" rx="16" fill="none" stroke="#14213d" stroke-opacity=".22" stroke-width="2"/>
+                <!-- menú -->
+                <rect x="22" y="346" width="62" height="8" rx="4" fill="#14213d" opacity=".85"/>
+                <circle cx="38" cy="382" r="15" fill="#f5c451"/>
+                <rect x="62" y="373" width="96" height="6" rx="3" fill="#14213d" opacity=".75"/>
+                <rect x="62" y="385" width="66" height="5" rx="2.5" fill="#14213d" opacity=".25"/>
+                <rect x="196" y="374" width="36" height="16" rx="8" fill="#d6f2ec"/>
+                <circle cx="38" cy="428" r="15" fill="#8cc152"/>
+                <rect x="62" y="419" width="84" height="6" rx="3" fill="#14213d" opacity=".75"/>
+                <rect x="62" y="431" width="72" height="5" rx="2.5" fill="#14213d" opacity=".25"/>
+                <rect x="196" y="420" width="36" height="16" rx="8" fill="#d6f2ec"/>
+                <circle cx="38" cy="474" r="15" fill="#e3953f"/>
+                <rect x="62" y="465" width="100" height="6" rx="3" fill="#14213d" opacity=".75"/>
+                <rect x="62" y="477" width="58" height="5" rx="2.5" fill="#14213d" opacity=".25"/>
+                <rect x="196" y="466" width="36" height="16" rx="8" fill="#d6f2ec"/>
+                <rect x="96" y="498" width="68" height="5" rx="2.5" fill="#14213d" opacity=".8"/>
+              </g>
+            </svg>
+
+            <div class="float-card float-card--tables glass">
+              <div class="fc-head"><span class="live-dot"></span><i class="fc-line"></i></div>
+              <div class="tables" data-tables>
+                <span class="table"></span><span class="table is-busy"></span><span class="table"></span><span class="table"></span>
+                <span class="table is-busy"></span><span class="table"></span><span class="table is-busy"></span><span class="table"></span>
+                <span class="table"></span><span class="table"></span><span class="table is-busy"></span><span class="table"></span>
+              </div>
+            </div>
+
+            <div class="float-card float-card--chat glass">
+              <div class="fc-msg fc-msg--in"><i style="--w:90%"></i><i style="--w:55%"></i></div>
+              <div class="fc-msg fc-msg--out"><span class="typing"><i></i><i></i><i></i></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Cómo trabajo ============ -->
+    <section class="section process" id="como-trabajo" aria-labelledby="proceso-title">
+      <div class="mesh mesh--process" aria-hidden="true"></div>
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <p class="eyebrow">Cómo trabajo</p>
+          <h2 id="proceso-title">Así de simple</h2>
+        </header>
+
+        <ol class="steps" role="list">
+          <li class="step card-glass" data-reveal>
+            <span class="step-num" aria-hidden="true">1</span>
+            <h3>Hablamos.</h3>
+            <p>Me cuentas cómo funciona tu negocio y qué necesitas. Sin compromiso.</p>
+          </li>
+          <li class="step card-glass" data-reveal>
+            <span class="step-num" aria-hidden="true">2</span>
+            <h3>Te muestro una propuesta.</h3>
+            <p>Te preparo una idea de cómo quedaría, para que la veas antes de decidir.</p>
+          </li>
+          <li class="step card-glass" data-reveal>
+            <span class="step-num" aria-hidden="true">3</span>
+            <h3>Lo pongo a funcionar.</h3>
+            <p>Publico todo, te enseño a usarlo y quedo pendiente por si necesitas ajustes.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ Sobre mí ============ -->
+    <section class="section about" id="sobre-mi" aria-labelledby="sobre-mi-title">
+      <div class="mesh mesh--about" aria-hidden="true"></div>
+      <div class="container">
+        <div class="about-panel card-glass" data-reveal>
+          <!-- Si quieres usar tu foto: reemplaza este bloque por
+               <img src="img/diego.webp" alt="Diego Meléndez" width="800" height="600" loading="lazy"> -->
+          <figure class="about-map" aria-hidden="true" data-play>
+            <svg viewBox="0 0 480 360" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <defs>
+                <linearGradient id="am-sea" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#c6f1ea"/>
+                  <stop offset="1" stop-color="#86d5cb"/>
+                </linearGradient>
+                <clipPath id="am-city"><rect x="120" y="0" width="300" height="360"/></clipPath>
+              </defs>
+              <rect width="480" height="360" fill="#f7ecde"/>
+              <g clip-path="url(#am-city)">
+                <g transform="rotate(-9 300 180)" stroke="#fff" stroke-linecap="round">
+                  <path d="M160-20v400M200-20v400M240-20v400M320-20v400M360-20v400M400-20v400" stroke-width="5"/>
+                  <path d="M100 40h360M100 84h360M100 128h360M100 216h360M100 260h360M100 304h360" stroke-width="5"/>
+                  <path d="M100 172h360M280-20v400" stroke-width="10"/>
+                </g>
+              </g>
+              <rect x="300" y="222" width="38" height="30" rx="7" fill="#cfe6b6" transform="rotate(-9 319 237)"/>
+              <!-- Sierra Nevada -->
+              <g fill="none" stroke="#d9c4a2" stroke-width="1.6">
+                <path d="M480 30c-44 8-78 44-72 96 5 46 38 74 72 80"/>
+                <path d="M480 62c-30 8-52 34-48 70 4 32 26 52 48 56"/>
+                <path d="M480 94c-18 6-28 22-26 42 2 18 14 30 26 32"/>
+              </g>
+              <path d="M480 112c-8 3-12 12-11 22 1 8 5 13 11 14Z" fill="#fff"/>
+              <!-- Bahía -->
+              <path d="M0 0h168c-18 38 22 70 2 110-16 32-58 42-50 88 8 44 58 58 44 108-6 22-18 38-16 54H0Z" fill="url(#am-sea)"/>
+              <path d="M168 0c-18 38 22 70 2 110-16 32-58 42-50 88 8 44 58 58 44 108-6 22-18 38-16 54" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+              <g fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" opacity=".75">
+                <path d="M24 60q8-6 16 0t16 0"/>
+                <path d="M92 26q8-6 16 0t16 0"/>
+                <path d="M62 250q8-6 16 0t16 0"/>
+                <path d="M26 318q8-6 16 0t16 0"/>
+              </g>
+              <!-- El Morro -->
+              <path d="M52 172c2-14 16-22 28-16 10 5 12 17 4 23-9 7-34 8-32-7Z" fill="#e6d3b3" stroke="#cdb48c" stroke-width="1.5"/>
+              <rect x="67" y="146" width="6" height="16" rx="1" fill="#fff" stroke="#14213d" stroke-opacity=".35"/>
+              <path d="M66 147h8l-4-7Z" fill="#ff6b4a"/>
+              <!-- Aquí estoy -->
+              <g class="map-pin">
+                <ellipse class="pin-pulse" cx="236" cy="206" rx="16" ry="6" fill="#ff6b4a"/>
+                <ellipse class="pin-pulse pin-pulse--2" cx="236" cy="206" rx="16" ry="6" fill="#ff6b4a"/>
+                <path d="M236 206c-13-15-20-24-20-34a20 20 0 0 1 40 0c0 10-7 19-20 34Z" fill="#ff6b4a" stroke="#fff" stroke-width="3"/>
+                <circle cx="236" cy="172" r="7.5" fill="#fff"/>
+              </g>
+            </svg>
+            <span class="map-chip glass">
+              <svg viewBox="0 0 24 24" focusable="false"><use href="#i-pin"/></svg>
+              Santa Marta, Colombia
+            </span>
+          </figure>
+
+          <div class="about-copy">
+            <p class="eyebrow">Sobre mí</p>
+            <h2 id="sobre-mi-title">Hola, soy Diego</h2>
+            <p>Soy desarrollador freelance en Santa Marta y trabajo con herramientas de inteligencia artificial para ayudar a negocios locales a vender más y trabajar menos. Conozco cómo se mueve el comercio aquí, y como estoy en la ciudad, podemos reunirnos en persona cuando lo necesites.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Contacto ============ -->
+    <section class="section contact" id="contacto" aria-labelledby="contacto-title">
+      <div class="mesh mesh--contact" aria-hidden="true" data-play></div>
+      <div class="container">
+        <div class="contact-card card-glass" data-reveal>
+          <p class="eyebrow">Contacto</p>
+          <h2 id="contacto-title">¿Hablamos de tu negocio?</h2>
+          <p class="contact-text">Cuéntame qué necesitas y te preparo una cotización sin costo.</p>
+          <a class="btn btn--lg" href="https://wa.me/573226434122?text=Hola%20Diego%2C%20vi%20tu%20p%C3%A1gina%20y%20quiero%20informaci%C3%B3n" target="_blank" rel="noopener" data-magnetic>
+            <span class="btn-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-wa"/></svg></span>
+            <span>Escríbeme por WhatsApp</span>
+            <svg class="btn-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg>
+          </a>
+          <a class="contact-mail" href="mailto:diegomelendez.dev@gmail.com">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-mail"/></svg>
+            <span>diegomelendez.dev@<wbr>gmail.com</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><use href="#i-mark"/></svg>
+      <p><span>Diego Meléndez</span> · <span>Desarrollo web y Consultor IA</span> · <span>Santa Marta, Colombia</span></p>
+    </div>
+  </footer>
+
+  <!-- Botón fijo de WhatsApp en celular (aparece al bajar) -->
+  <div class="sticky-cta glass" data-sticky-cta>
+    <a class="btn btn--block" href="https://wa.me/573226434122?text=Hola%20Diego%2C%20vi%20tu%20p%C3%A1gina%20y%20quiero%20informaci%C3%B3n" target="_blank" rel="noopener">
+      <span class="btn-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-wa"/></svg></span>
+      <span>Escríbeme por WhatsApp</span>
+    </a>
+  </div>
+</body>
+</html>
