@@ -193,6 +193,18 @@
     });
   }
 
+  /* Luz dorada que sigue al cursor dentro de las tarjetas (solo con mouse) */
+  function initSpotlight() {
+    if (!finePointer) return;
+    $$("[data-spot]").forEach((el) => {
+      el.addEventListener("pointermove", (e) => {
+        const r = el.getBoundingClientRect();
+        el.style.setProperty("--mx", (e.clientX - r.left).toFixed(0) + "px");
+        el.style.setProperty("--my", (e.clientY - r.top).toFixed(0) + "px");
+      });
+    });
+  }
+
   function boot() {
     safe(initHeader, "initHeader");
     safe(initMenu, "initMenu");
@@ -203,6 +215,7 @@
     safe(initActiveLink, "initActiveLink");
     safe(initStickyCta, "initStickyCta");
     safe(initMagnetic, "initMagnetic");
+    safe(initSpotlight, "initSpotlight");
     root.classList.add("is-ready");
   }
 

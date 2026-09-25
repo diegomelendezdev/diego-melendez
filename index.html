@@ -6,8 +6,8 @@
   <title>Diego Meléndez | Páginas web y asistentes con IA en Santa Marta</title>
   <meta name="description" content="Páginas web, asistentes de WhatsApp con inteligencia artificial y automatizaciones para negocios de Santa Marta. Cotiza sin costo.">
   <meta name="author" content="Diego Meléndez">
-  <meta name="theme-color" content="#f7f2eb">
-  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#07090f">
+  <meta name="color-scheme" content="dark">
 
   <!-- Vista previa al compartir el enlace (WhatsApp, Facebook, LinkedIn, X).
        Si cambias de dirección (por ejemplo, un dominio propio), actualiza og:image, og:url y canonical. -->
@@ -25,16 +25,16 @@
   <link rel="canonical" href="https://diegomelendezdev.github.io/diego-melendez/">
   <meta name="twitter:card" content="summary_large_image">
 
-  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="img/favicon.png" type="image/png" sizes="96x96">
   <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 
   <!-- Tipografía (Google Fonts): se carga sin bloquear la página -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;display=swap"></noscript>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..700&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..700&amp;family=Instrument+Serif:ital@0;1&amp;display=swap"></noscript>
 
-  <link rel="stylesheet" href="styles.css?v=20260923">
+  <link rel="stylesheet" href="styles.css?v=20260924">
 
   <!-- Activa las animaciones solo si el JavaScript arranca (si falla, todo queda visible) -->
   <script>
@@ -43,7 +43,7 @@
       setTimeout(function () { if (!d.classList.contains("is-ready")) d.classList.remove("js"); }, 3000);
     })(document.documentElement);
   </script>
-  <script defer src="main.js?v=20260923"></script>
+  <script defer src="main.js?v=20260924"></script>
 
   <script type="application/ld+json">
   {
@@ -65,18 +65,25 @@
   <svg class="sprite" aria-hidden="true" focusable="false">
     <defs>
       <linearGradient id="g-sun" x1="0" y1="0" x2="0" y2="1">
-        <stop offset="0" stop-color="#ffc15e"/>
-        <stop offset="1" stop-color="#ff6b4a"/>
+        <stop offset="0" stop-color="#f7e7b8"/>
+        <stop offset="1" stop-color="#b8904a"/>
+      </linearGradient>
+      <linearGradient id="g-gold" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#f7e7b8"/>
+        <stop offset=".4" stop-color="#d2ab62"/>
+        <stop offset=".72" stop-color="#8f6a2e"/>
+        <stop offset="1" stop-color="#e6cb8b"/>
       </linearGradient>
       <filter id="f-shadow" x="-20%" y="-20%" width="140%" height="170%">
         <feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#14213d" flood-opacity=".14"/>
       </filter>
     </defs>
     <symbol id="i-mark" viewBox="0 0 32 32">
-      <circle cx="16" cy="16" r="16" fill="#14213d"/>
+      <circle cx="16" cy="16" r="16" fill="#0d121d"/>
+      <circle cx="16" cy="16" r="15.4" fill="none" stroke="url(#g-gold)" stroke-width="1.1"/>
       <path d="M8 18a8 8 0 0 1 16 0Z" fill="url(#g-sun)"/>
-      <path d="M6 18h20" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
-      <path d="M10 22h12M13 25.5h6" stroke="#12a59c" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M6 18h20" stroke="#f2ead9" stroke-width="1.4" stroke-linecap="round"/>
+      <path d="M10 22h12M13 25.5h6" stroke="#c9a45c" stroke-width="1.4" stroke-linecap="round" opacity=".8"/>
     </symbol>
     <symbol id="i-wa" viewBox="0 0 24 24">
       <path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
@@ -106,7 +113,10 @@
   <header class="site-header">
     <nav class="nav glass" aria-label="Principal">
       <a class="brand" href="#inicio">
-        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><use href="#i-mark"/></svg>
+        <span class="brand-photo" aria-hidden="true">
+          <img src="img/diego-avatar.webp" width="176" height="176" alt="" fetchpriority="high">
+          <span class="live-dot"></span>
+        </span>
         <span>Diego Meléndez</span>
       </a>
 
@@ -255,11 +265,11 @@
       <div class="container">
         <header class="section-head" data-reveal>
           <p class="eyebrow">Servicios</p>
-          <h2 id="servicios-title">¿En qué te puedo ayudar?</h2>
+          <h2 id="servicios-title">¿En qué te puedo <span class="gold-i">ayudar</span>?</h2>
         </header>
 
         <div class="services-grid">
-          <article class="service card-glass" data-reveal>
+          <article class="service card-glass" data-reveal data-spot>
             <div class="vignette vignette--web" aria-hidden="true" data-play>
               <svg viewBox="0 0 320 200" focusable="false">
                 <defs>
@@ -269,7 +279,8 @@
                   </linearGradient>
                   <clipPath id="vw-screen"><rect x="160" y="30" width="112" height="200" rx="15"/></clipPath>
                 </defs>
-                <rect x="154" y="24" width="124" height="212" rx="21" fill="#14213d"/>
+                <rect x="154" y="24" width="124" height="212" rx="21" fill="url(#g-gold)"/>
+                <rect x="157" y="27" width="118" height="206" rx="18" fill="#0b0f18"/>
                 <g clip-path="url(#vw-screen)">
                   <rect x="160" y="30" width="112" height="200" fill="#fffaf4"/>
                   <circle cx="172" cy="44" r="4.5" fill="#ff6b4a"/>
@@ -294,7 +305,7 @@
                 <circle cx="35" cy="52" r="6" fill="none" stroke="#14213d" stroke-width="2"/>
                 <path d="m39.5 56.5 4 4" stroke="#14213d" stroke-width="2" stroke-linecap="round"/>
                 <rect x="52" y="50" width="74" height="5" rx="2.5" fill="#14213d" opacity=".25"/>
-                <rect class="v-caret" x="131" y="45" width="1.8" height="15" rx=".9" fill="#ff6b4a"/>
+                <rect class="v-caret" x="131" y="45" width="1.8" height="15" rx=".9" fill="#c9a45c"/>
                 <rect x="28" y="82" width="140" height="66" rx="13" fill="#fff" filter="url(#f-shadow)"/>
                 <circle cx="45" cy="99" r="6.5" fill="#ff6b4a"/>
                 <rect x="57" y="95" width="70" height="7" rx="3.5" fill="#14213d" opacity=".8"/>
@@ -316,51 +327,49 @@
             </div>
           </article>
 
-          <article class="service card-glass" data-reveal>
+          <article class="service card-glass" data-reveal data-spot>
             <div class="vignette vignette--ai" aria-hidden="true" data-play>
               <svg viewBox="0 0 320 200" focusable="false">
                 <defs>
-                  <linearGradient id="va-avatar" x1="0" y1="0" x2="1" y2="1">
-                    <stop offset="0" stop-color="#ffd3b0"/>
-                    <stop offset="1" stop-color="#ff6b4a"/>
-                  </linearGradient>
                   <clipPath id="va-win"><rect x="42" y="16" width="236" height="220" rx="18"/></clipPath>
                 </defs>
-                <rect x="42" y="16" width="236" height="220" rx="18" fill="#fff" filter="url(#f-shadow)"/>
+                <!-- WhatsApp en modo oscuro, con marco dorado -->
+                <rect x="41" y="15" width="238" height="222" rx="19" fill="url(#g-gold)" opacity=".7"/>
+                <rect x="42" y="16" width="236" height="220" rx="18" fill="#111b21"/>
                 <g clip-path="url(#va-win)">
-                  <rect x="42" y="16" width="236" height="40" fill="#0b6e5f"/>
-                  <rect x="42" y="56" width="236" height="180" fill="#efeae2"/>
+                  <rect x="42" y="16" width="236" height="40" fill="#202c33"/>
+                  <rect x="42" y="56" width="236" height="180" fill="#0b141a"/>
                 </g>
-                <circle cx="66" cy="36" r="11" fill="url(#va-avatar)"/>
-                <path d="M77 21.5l1.6 3.4 3.4 1.6-3.4 1.6-1.6 3.4-1.6-3.4-3.4-1.6 3.4-1.6Z" fill="#ffc15e" stroke="#0b6e5f" stroke-width="1"/>
-                <rect x="85" y="29" width="58" height="6" rx="3" fill="#fff"/>
+                <circle cx="66" cy="36" r="11" fill="url(#g-gold)"/>
+                <path d="M77 21.5l1.6 3.4 3.4 1.6-3.4 1.6-1.6 3.4-1.6-3.4-3.4-1.6 3.4-1.6Z" fill="#f7e7b8" stroke="#202c33" stroke-width="1"/>
+                <rect x="85" y="29" width="58" height="6" rx="3" fill="#e9edef"/>
                 <circle cx="88" cy="42.5" r="2.6" fill="#25d366"/>
-                <rect x="94" y="40.5" width="34" height="4" rx="2" fill="#fff" opacity=".6"/>
+                <rect x="94" y="40.5" width="34" height="4" rx="2" fill="#e9edef" opacity=".45"/>
                 <g class="msg msg-1">
-                  <rect x="54" y="66" width="120" height="30" rx="10" fill="#fff"/>
-                  <rect x="64" y="75" width="86" height="4.5" rx="2.25" fill="#14213d" opacity=".55"/>
-                  <rect x="64" y="84" width="58" height="4.5" rx="2.25" fill="#14213d" opacity=".3"/>
+                  <rect x="54" y="66" width="120" height="30" rx="10" fill="#202c33"/>
+                  <rect x="64" y="75" width="86" height="4.5" rx="2.25" fill="#e9edef" opacity=".7"/>
+                  <rect x="64" y="84" width="58" height="4.5" rx="2.25" fill="#e9edef" opacity=".35"/>
                 </g>
                 <g class="msg msg-2">
-                  <rect x="124" y="104" width="142" height="62" rx="10" fill="#d9fdd3"/>
-                  <rect x="131" y="111" width="42" height="42" rx="7" fill="#ffe2c9"/>
-                  <circle cx="152" cy="132" r="13" fill="#fff"/>
-                  <circle cx="152" cy="132" r="8" fill="#ff8a5c"/>
-                  <circle cx="149" cy="129" r="2.2" fill="#ffc15e"/>
-                  <rect x="180" y="113" width="64" height="5" rx="2.5" fill="#14213d" opacity=".7"/>
-                  <rect x="180" y="123" width="46" height="4" rx="2" fill="#14213d" opacity=".3"/>
+                  <rect x="124" y="104" width="142" height="62" rx="10" fill="#005c4b"/>
+                  <rect x="131" y="111" width="42" height="42" rx="7" fill="#1d3b37"/>
+                  <circle cx="152" cy="132" r="13" fill="#f2ead9"/>
+                  <circle cx="152" cy="132" r="8" fill="#d6b16a"/>
+                  <circle cx="149" cy="129" r="2.2" fill="#f7e7b8"/>
+                  <rect x="180" y="113" width="64" height="5" rx="2.5" fill="#e9edef" opacity=".85"/>
+                  <rect x="180" y="123" width="46" height="4" rx="2" fill="#e9edef" opacity=".4"/>
                   <rect x="180" y="136" width="34" height="13" rx="6.5" fill="#25d366"/>
                   <use href="#i-ticks" x="244" y="153" width="15" height="10" color="#53bdeb"/>
                 </g>
                 <g class="msg msg-3">
-                  <rect x="54" y="174" width="88" height="24" rx="10" fill="#fff"/>
-                  <rect x="64" y="184" width="60" height="4.5" rx="2.25" fill="#14213d" opacity=".5"/>
+                  <rect x="54" y="174" width="88" height="24" rx="10" fill="#202c33"/>
+                  <rect x="64" y="184" width="60" height="4.5" rx="2.25" fill="#e9edef" opacity=".6"/>
                 </g>
                 <g class="msg msg-4">
-                  <rect x="214" y="176" width="52" height="22" rx="11" fill="#d9fdd3"/>
-                  <circle class="td" cx="229" cy="187" r="3" fill="#0b6e5f"/>
-                  <circle class="td" cx="240" cy="187" r="3" fill="#0b6e5f"/>
-                  <circle class="td" cx="251" cy="187" r="3" fill="#0b6e5f"/>
+                  <rect x="214" y="176" width="52" height="22" rx="11" fill="#005c4b"/>
+                  <circle class="td" cx="229" cy="187" r="3" fill="#e9edef"/>
+                  <circle class="td" cx="240" cy="187" r="3" fill="#e9edef"/>
+                  <circle class="td" cx="251" cy="187" r="3" fill="#e9edef"/>
                 </g>
               </svg>
             </div>
@@ -370,45 +379,45 @@
             </div>
           </article>
 
-          <article class="service card-glass" data-reveal>
+          <article class="service card-glass" data-reveal data-spot>
             <div class="vignette vignette--auto" aria-hidden="true" data-play>
               <svg viewBox="0 0 320 200" focusable="false">
-                <g fill="none" stroke="#14213d" stroke-opacity=".22" stroke-width="2" stroke-dasharray="3 5" stroke-linecap="round">
+                <g fill="none" stroke="#d6b16a" stroke-opacity=".5" stroke-width="1.5" stroke-dasharray="3 5" stroke-linecap="round">
                   <path d="M82 100H132"/>
                   <path d="M188 100h18a8 8 0 0 0 8-8V62a8 8 0 0 1 8-8h14"/>
                   <path d="M188 100h18a8 8 0 0 1 8 8v30a8 8 0 0 0 8 8h14"/>
                 </g>
-                <circle class="flow-dot flow-dot--a" cx="82" cy="100" r="4.5" fill="#ff6b4a"/>
-                <circle class="flow-dot flow-dot--b" cx="82" cy="100" r="4.5" fill="#ff6b4a"/>
+                <circle class="flow-dot flow-dot--a" cx="82" cy="100" r="4" fill="#f7e7b8"/>
+                <circle class="flow-dot flow-dot--b" cx="82" cy="100" r="4" fill="#f7e7b8"/>
                 <!-- datos -->
-                <rect x="26" y="72" width="56" height="56" rx="15" fill="#fff" filter="url(#f-shadow)"/>
-                <rect x="41" y="89" width="26" height="6" fill="#12a59c" opacity=".25"/>
-                <rect x="40" y="88" width="28" height="24" rx="4" fill="none" stroke="#12a59c" stroke-width="2"/>
-                <path d="M40 96h28M40 104h28M50 88v24" stroke="#12a59c" stroke-width="2"/>
+                <rect x="26" y="72" width="56" height="56" rx="15" fill="#172033" stroke="#d6b16a" stroke-opacity=".35"/>
+                <rect x="41" y="89" width="26" height="6" fill="#4fd1c5" opacity=".25"/>
+                <rect x="40" y="88" width="28" height="24" rx="4" fill="none" stroke="#4fd1c5" stroke-width="2"/>
+                <path d="M40 96h28M40 104h28M50 88v24" stroke="#4fd1c5" stroke-width="2"/>
                 <!-- automatización -->
-                <rect x="132" y="72" width="56" height="56" rx="15" fill="#ff6b4a" filter="url(#f-shadow)"/>
-                <path d="M163 84l-11 18h8.5l-3 14 11.5-19h-8.5Z" fill="#fff"/>
+                <rect x="132" y="72" width="56" height="56" rx="15" fill="url(#g-gold)"/>
+                <path d="M163 84l-11 18h8.5l-3 14 11.5-19h-8.5Z" fill="#0b0f18"/>
                 <!-- recordatorio -->
-                <rect x="236" y="26" width="56" height="56" rx="15" fill="#fff" filter="url(#f-shadow)"/>
-                <path d="M256 62h16c-2-2.5-2.6-4.6-2.6-8.4a5.4 5.4 0 0 0-10.8 0c0 3.8-.6 5.9-2.6 8.4Z" fill="none" stroke="#14213d" stroke-width="2" stroke-linejoin="round"/>
-                <path d="M261.5 65.5a2.6 2.6 0 0 0 5 0" fill="none" stroke="#14213d" stroke-width="2" stroke-linecap="round"/>
-                <circle cx="271" cy="44" r="4" fill="#ff6b4a"/>
+                <rect x="236" y="26" width="56" height="56" rx="15" fill="#172033" stroke="#d6b16a" stroke-opacity=".35"/>
+                <path d="M256 62h16c-2-2.5-2.6-4.6-2.6-8.4a5.4 5.4 0 0 0-10.8 0c0 3.8-.6 5.9-2.6 8.4Z" fill="none" stroke="#f2ead9" stroke-width="2" stroke-linejoin="round"/>
+                <path d="M261.5 65.5a2.6 2.6 0 0 0 5 0" fill="none" stroke="#f2ead9" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="271" cy="44" r="4" fill="#d6b16a"/>
                 <!-- seguimiento -->
-                <rect x="236" y="118" width="56" height="56" rx="15" fill="#fff" filter="url(#f-shadow)"/>
-                <circle cx="261" cy="140" r="6" fill="none" stroke="#14213d" stroke-width="2"/>
-                <path d="M250 160c1.5-5.5 5.6-8.4 11-8.4s9.5 2.9 11 8.4" fill="none" stroke="#14213d" stroke-width="2" stroke-linecap="round"/>
+                <rect x="236" y="118" width="56" height="56" rx="15" fill="#172033" stroke="#d6b16a" stroke-opacity=".35"/>
+                <circle cx="261" cy="140" r="6" fill="none" stroke="#f2ead9" stroke-width="2"/>
+                <path d="M250 160c1.5-5.5 5.6-8.4 11-8.4s9.5 2.9 11 8.4" fill="none" stroke="#f2ead9" stroke-width="2" stroke-linecap="round"/>
                 <circle cx="275" cy="136" r="7" fill="#25d366"/>
-                <path d="m271.8 136 2.2 2.2 4-4.2" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="m271.8 136 2.2 2.2 4-4.2" fill="none" stroke="#0b0f18" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
                 <!-- encendido -->
                 <rect x="26" y="152" width="40" height="22" rx="11" fill="#25d366"/>
                 <circle cx="55" cy="163" r="8" fill="#fff"/>
-                <rect x="74" y="156" width="58" height="5" rx="2.5" fill="#14213d" opacity=".45"/>
-                <rect x="74" y="166" width="38" height="4" rx="2" fill="#14213d" opacity=".22"/>
+                <rect x="74" y="156" width="58" height="5" rx="2.5" fill="#f2ead9" opacity=".5"/>
+                <rect x="74" y="166" width="38" height="4" rx="2" fill="#f2ead9" opacity=".25"/>
                 <!-- tiempo ahorrado -->
-                <rect x="26" y="26" width="96" height="30" rx="15" fill="#fff" filter="url(#f-shadow)"/>
-                <circle cx="42" cy="41" r="6.5" fill="none" stroke="#12a59c" stroke-width="2"/>
-                <path d="M42 37.5V41l2.5 1.6" fill="none" stroke="#12a59c" stroke-width="1.8" stroke-linecap="round"/>
-                <rect x="55" y="38.5" width="52" height="5" rx="2.5" fill="#14213d" opacity=".3"/>
+                <rect x="26" y="26" width="96" height="30" rx="15" fill="#172033" stroke="#d6b16a" stroke-opacity=".35"/>
+                <circle cx="42" cy="41" r="6.5" fill="none" stroke="#d6b16a" stroke-width="2"/>
+                <path d="M42 37.5V41l2.5 1.6" fill="none" stroke="#d6b16a" stroke-width="1.8" stroke-linecap="round"/>
+                <rect x="55" y="38.5" width="52" height="5" rx="2.5" fill="#f2ead9" opacity=".35"/>
               </svg>
             </div>
             <div class="service-body">
@@ -424,10 +433,10 @@
     <section class="section demo" id="demo" aria-labelledby="demo-title">
       <div class="mesh mesh--demo" aria-hidden="true"></div>
       <div class="container">
-        <div class="demo-panel card-glass" data-reveal>
+        <div class="demo-panel card-glass" data-reveal data-spot>
           <div class="demo-copy">
             <p class="eyebrow">Demo</p>
-            <h2 id="demo-title">Mira un ejemplo funcionando</h2>
+            <h2 id="demo-title">Mira un ejemplo <span class="gold-i">funcionando</span></h2>
             <p>Esta es una página de demostración para un restaurante, con menú, disponibilidad de mesas en tiempo real y un chat de ejemplo. Así podría verse tu negocio.</p>
             <!-- Demo del restaurante: se abre en una pestaña nueva para no salir de esta página -->
             <a class="btn btn--coral btn--lg" href="https://diegomelendezdev.github.io/mestral-demo/" target="_blank" rel="noopener" data-magnetic>
@@ -445,7 +454,8 @@
                 </linearGradient>
                 <clipPath id="dp-screen"><rect x="10" y="10" width="240" height="500" rx="32"/></clipPath>
               </defs>
-              <rect width="260" height="520" rx="42" fill="#14213d"/>
+              <rect width="260" height="520" rx="42" fill="url(#g-gold)"/>
+              <rect x="4" y="4" width="252" height="512" rx="38" fill="#0b0f18"/>
               <g clip-path="url(#dp-screen)">
                 <rect x="10" y="10" width="240" height="500" fill="#fffaf4"/>
                 <rect x="28" y="24" width="24" height="6" rx="3" fill="#14213d" opacity=".75"/>
@@ -518,21 +528,21 @@
       <div class="container">
         <header class="section-head" data-reveal>
           <p class="eyebrow">Cómo trabajo</p>
-          <h2 id="proceso-title">Así de simple</h2>
+          <h2 id="proceso-title">Así de <span class="gold-i">simple</span></h2>
         </header>
 
         <ol class="steps" role="list">
-          <li class="step card-glass" data-reveal>
+          <li class="step card-glass" data-reveal data-spot>
             <span class="step-num" aria-hidden="true">1</span>
             <h3>Hablamos.</h3>
             <p>Me cuentas cómo funciona tu negocio y qué necesitas. Sin compromiso.</p>
           </li>
-          <li class="step card-glass" data-reveal>
+          <li class="step card-glass" data-reveal data-spot>
             <span class="step-num" aria-hidden="true">2</span>
             <h3>Te muestro una propuesta.</h3>
             <p>Te preparo una idea de cómo quedaría, para que la veas antes de decidir.</p>
           </li>
-          <li class="step card-glass" data-reveal>
+          <li class="step card-glass" data-reveal data-spot>
             <span class="step-num" aria-hidden="true">3</span>
             <h3>Lo pongo a funcionar.</h3>
             <p>Publico todo, te enseño a usarlo y quedo pendiente por si necesitas ajustes.</p>
@@ -545,10 +555,20 @@
     <section class="section about" id="sobre-mi" aria-labelledby="sobre-mi-title">
       <div class="mesh mesh--about" aria-hidden="true"></div>
       <div class="container">
-        <div class="about-panel card-glass" data-reveal>
-          <!-- Si quieres usar tu foto: reemplaza este bloque por
-               <img src="img/diego.webp" alt="Diego Meléndez" width="800" height="600" loading="lazy"> -->
-          <figure class="about-map" aria-hidden="true" data-play>
+        <div class="about-panel card-glass" data-reveal data-spot>
+          <!-- Retrato: el sol de la marca sale detrás y el mapa marca dónde estoy -->
+          <figure class="about-media" data-play>
+            <span class="about-sun" aria-hidden="true"></span>
+            <div class="about-photo">
+              <img src="img/diego-800.webp" srcset="img/diego-480.webp 480w, img/diego-800.webp 800w"
+                   sizes="(min-width: 540px) 420px, 80vw" width="800" height="1000"
+                   alt="Diego Meléndez" loading="lazy" decoding="async">
+              <span class="map-chip glass" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false"><use href="#i-pin"/></svg>
+                Santa Marta, Colombia
+              </span>
+            </div>
+            <div class="about-map" aria-hidden="true">
             <svg viewBox="0 0 480 360" preserveAspectRatio="xMidYMid slice" focusable="false">
               <defs>
                 <linearGradient id="am-sea" x1="0" y1="0" x2="1" y2="1">
@@ -594,15 +614,12 @@
                 <circle cx="236" cy="172" r="7.5" fill="#fff"/>
               </g>
             </svg>
-            <span class="map-chip glass">
-              <svg viewBox="0 0 24 24" focusable="false"><use href="#i-pin"/></svg>
-              Santa Marta, Colombia
-            </span>
+            </div>
           </figure>
 
           <div class="about-copy">
             <p class="eyebrow">Sobre mí</p>
-            <h2 id="sobre-mi-title">Hola, soy Diego</h2>
+            <h2 id="sobre-mi-title">Hola, soy <span class="gold-i">Diego</span></h2>
             <p>Soy desarrollador freelance en Santa Marta y trabajo con herramientas de inteligencia artificial para ayudar a negocios locales a vender más y trabajar menos. Conozco cómo se mueve el comercio aquí, y como estoy en la ciudad, podemos reunirnos en persona cuando lo necesites.</p>
           </div>
         </div>
@@ -613,9 +630,13 @@
     <section class="section contact" id="contacto" aria-labelledby="contacto-title">
       <div class="mesh mesh--contact" aria-hidden="true" data-play></div>
       <div class="container">
-        <div class="contact-card card-glass" data-reveal>
+        <div class="contact-card card-glass" data-reveal data-spot>
+          <div class="contact-avatar" aria-hidden="true">
+            <img src="img/diego-avatar.webp" width="176" height="176" alt="" loading="lazy" decoding="async">
+            <span class="live-dot"></span>
+          </div>
           <p class="eyebrow">Contacto</p>
-          <h2 id="contacto-title">¿Hablamos de tu negocio?</h2>
+          <h2 id="contacto-title">¿Hablamos de tu <span class="gold-i">negocio</span>?</h2>
           <p class="contact-text">Cuéntame qué necesitas y te preparo una cotización sin costo.</p>
           <a class="btn btn--lg" href="https://wa.me/573226434122?text=Hola%20Diego%2C%20vi%20tu%20p%C3%A1gina%20y%20quiero%20informaci%C3%B3n" target="_blank" rel="noopener" data-magnetic>
             <span class="btn-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-wa"/></svg></span>
