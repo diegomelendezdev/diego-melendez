@@ -21,6 +21,13 @@ Un asistente que responde a tus clientes al instante, a cualquier hora: resuelve
 ### Automatizaciones
 Esas tareas repetitivas que te quitan horas (copiar datos, enviar recordatorios, hacer seguimiento a clientes) se pueden hacer solas. Menos trabajo manual, menos errores y más tiempo para lo importante.
 
+## Sobre mí
+
+**Título:** Soy Diego
+
+**Texto:** Soy un desarrollador freelance en Santa Marta y trabajo con herramientas de inteligencia artificial para ayudar a negocios locales a vender más y trabajar menos. Conozco cómo se mueve el comercio aquí, y además estoy en la ciudad.  
+¿Necesitas que te ayude a identificar patrones que están matando tu negocio? Escríbeme y lo analizamos.
+
 ## Demo
 
 **Título:** Mira un ejemplo funcionando
@@ -36,12 +43,6 @@ Esas tareas repetitivas que te quitan horas (copiar datos, enviar recordatorios,
 1. **Hablamos.** Me cuentas cómo funciona tu negocio y qué necesitas. Sin compromiso.
 2. **Te muestro una propuesta.** Te preparo una idea de cómo quedaría, para que la veas antes de decidir.
 3. **Lo pongo a funcionar.** Publico todo, te enseño a usarlo y quedo pendiente por si necesitas ajustes.
-
-## Sobre mí
-
-**Título:** Hola, soy Diego
-
-**Texto:** Soy desarrollador freelance en Santa Marta y trabajo con herramientas de inteligencia artificial para ayudar a negocios locales a vender más y trabajar menos. Conozco cómo se mueve el comercio aquí, y como estoy en la ciudad, podemos reunirnos en persona cuando lo necesites.
 
 ## Contacto
 

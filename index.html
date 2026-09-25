@@ -122,9 +122,9 @@
 
       <ul class="nav-links">
         <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
         <li><a href="#demo">Demo</a></li>
         <li><a href="#como-trabajo">Cómo trabajo</a></li>
-        <li><a href="#sobre-mi">Sobre mí</a></li>
         <li><a href="#contacto">Contacto</a></li>
       </ul>
 
@@ -142,9 +142,9 @@
         <div class="nav-panel glass">
           <ul>
             <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
             <li><a href="#demo">Demo</a></li>
             <li><a href="#como-trabajo">Cómo trabajo</a></li>
-            <li><a href="#sobre-mi">Sobre mí</a></li>
             <li><a href="#contacto">Contacto</a></li>
           </ul>
           <a class="btn btn--block" href="https://wa.me/573226434122?text=Hola%20Diego%2C%20vi%20tu%20p%C3%A1gina%20y%20quiero%20informaci%C3%B3n" target="_blank" rel="noopener">
@@ -429,6 +429,81 @@
       </div>
     </section>
 
+    <!-- ============ Sobre mí ============ -->
+    <section class="section about" id="sobre-mi" aria-labelledby="sobre-mi-title">
+      <div class="mesh mesh--about" aria-hidden="true"></div>
+      <div class="container">
+        <div class="about-panel card-glass" data-reveal data-spot>
+          <!-- Retrato: el sol de la marca sale detrás y el mapa marca dónde estoy -->
+          <figure class="about-media" data-play>
+            <span class="about-sun" aria-hidden="true"></span>
+            <div class="about-photo">
+              <img src="img/diego-800.webp" srcset="img/diego-480.webp 480w, img/diego-800.webp 800w"
+                   sizes="(min-width: 540px) 420px, 80vw" width="800" height="1000"
+                   alt="Diego Meléndez" loading="lazy" decoding="async">
+              <span class="map-chip glass" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false"><use href="#i-pin"/></svg>
+                Santa Marta, Colombia
+              </span>
+            </div>
+            <div class="about-map" aria-hidden="true">
+            <svg viewBox="0 0 480 360" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <defs>
+                <linearGradient id="am-sea" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#c6f1ea"/>
+                  <stop offset="1" stop-color="#86d5cb"/>
+                </linearGradient>
+                <clipPath id="am-city"><rect x="120" y="0" width="300" height="360"/></clipPath>
+              </defs>
+              <rect width="480" height="360" fill="#f7ecde"/>
+              <g clip-path="url(#am-city)">
+                <g transform="rotate(-9 300 180)" stroke="#fff" stroke-linecap="round">
+                  <path d="M160-20v400M200-20v400M240-20v400M320-20v400M360-20v400M400-20v400" stroke-width="5"/>
+                  <path d="M100 40h360M100 84h360M100 128h360M100 216h360M100 260h360M100 304h360" stroke-width="5"/>
+                  <path d="M100 172h360M280-20v400" stroke-width="10"/>
+                </g>
+              </g>
+              <rect x="300" y="222" width="38" height="30" rx="7" fill="#cfe6b6" transform="rotate(-9 319 237)"/>
+              <!-- Sierra Nevada -->
+              <g fill="none" stroke="#d9c4a2" stroke-width="1.6">
+                <path d="M480 30c-44 8-78 44-72 96 5 46 38 74 72 80"/>
+                <path d="M480 62c-30 8-52 34-48 70 4 32 26 52 48 56"/>
+                <path d="M480 94c-18 6-28 22-26 42 2 18 14 30 26 32"/>
+              </g>
+              <path d="M480 112c-8 3-12 12-11 22 1 8 5 13 11 14Z" fill="#fff"/>
+              <!-- Bahía -->
+              <path d="M0 0h168c-18 38 22 70 2 110-16 32-58 42-50 88 8 44 58 58 44 108-6 22-18 38-16 54H0Z" fill="url(#am-sea)"/>
+              <path d="M168 0c-18 38 22 70 2 110-16 32-58 42-50 88 8 44 58 58 44 108-6 22-18 38-16 54" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+              <g fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" opacity=".75">
+                <path d="M24 60q8-6 16 0t16 0"/>
+                <path d="M92 26q8-6 16 0t16 0"/>
+                <path d="M62 250q8-6 16 0t16 0"/>
+                <path d="M26 318q8-6 16 0t16 0"/>
+              </g>
+              <!-- El Morro -->
+              <path d="M52 172c2-14 16-22 28-16 10 5 12 17 4 23-9 7-34 8-32-7Z" fill="#e6d3b3" stroke="#cdb48c" stroke-width="1.5"/>
+              <rect x="67" y="146" width="6" height="16" rx="1" fill="#fff" stroke="#14213d" stroke-opacity=".35"/>
+              <path d="M66 147h8l-4-7Z" fill="#ff6b4a"/>
+              <!-- Aquí estoy -->
+              <g class="map-pin">
+                <ellipse class="pin-pulse" cx="236" cy="206" rx="16" ry="6" fill="#ff6b4a"/>
+                <ellipse class="pin-pulse pin-pulse--2" cx="236" cy="206" rx="16" ry="6" fill="#ff6b4a"/>
+                <path d="M236 206c-13-15-20-24-20-34a20 20 0 0 1 40 0c0 10-7 19-20 34Z" fill="#ff6b4a" stroke="#fff" stroke-width="3"/>
+                <circle cx="236" cy="172" r="7.5" fill="#fff"/>
+              </g>
+            </svg>
+            </div>
+          </figure>
+
+          <div class="about-copy">
+            <p class="eyebrow">Sobre mí</p>
+            <h2 id="sobre-mi-title">Soy <span class="gold-i">Diego</span></h2>
+            <p>Soy un desarrollador freelance en Santa Marta y trabajo con herramientas de inteligencia artificial para ayudar a negocios locales a vender más y trabajar menos. Conozco cómo se mueve el comercio aquí, y además estoy en la ciudad.<br>¿Necesitas que te ayude a identificar patrones que están matando tu negocio? Escríbeme y lo analizamos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- ============ Demo ============ -->
     <section class="section demo" id="demo" aria-labelledby="demo-title">
       <div class="mesh mesh--demo" aria-hidden="true"></div>
@@ -548,81 +623,6 @@
             <p>Publico todo, te enseño a usarlo y quedo pendiente por si necesitas ajustes.</p>
           </li>
         </ol>
-      </div>
-    </section>
-
-    <!-- ============ Sobre mí ============ -->
-    <section class="section about" id="sobre-mi" aria-labelledby="sobre-mi-title">
-      <div class="mesh mesh--about" aria-hidden="true"></div>
-      <div class="container">
-        <div class="about-panel card-glass" data-reveal data-spot>
-          <!-- Retrato: el sol de la marca sale detrás y el mapa marca dónde estoy -->
-          <figure class="about-media" data-play>
-            <span class="about-sun" aria-hidden="true"></span>
-            <div class="about-photo">
-              <img src="img/diego-800.webp" srcset="img/diego-480.webp 480w, img/diego-800.webp 800w"
-                   sizes="(min-width: 540px) 420px, 80vw" width="800" height="1000"
-                   alt="Diego Meléndez" loading="lazy" decoding="async">
-              <span class="map-chip glass" aria-hidden="true">
-                <svg viewBox="0 0 24 24" focusable="false"><use href="#i-pin"/></svg>
-                Santa Marta, Colombia
-              </span>
-            </div>
-            <div class="about-map" aria-hidden="true">
-            <svg viewBox="0 0 480 360" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <defs>
-                <linearGradient id="am-sea" x1="0" y1="0" x2="1" y2="1">
-                  <stop offset="0" stop-color="#c6f1ea"/>
-                  <stop offset="1" stop-color="#86d5cb"/>
-                </linearGradient>
-                <clipPath id="am-city"><rect x="120" y="0" width="300" height="360"/></clipPath>
-              </defs>
-              <rect width="480" height="360" fill="#f7ecde"/>
-              <g clip-path="url(#am-city)">
-                <g transform="rotate(-9 300 180)" stroke="#fff" stroke-linecap="round">
-                  <path d="M160-20v400M200-20v400M240-20v400M320-20v400M360-20v400M400-20v400" stroke-width="5"/>
-                  <path d="M100 40h360M100 84h360M100 128h360M100 216h360M100 260h360M100 304h360" stroke-width="5"/>
-                  <path d="M100 172h360M280-20v400" stroke-width="10"/>
-                </g>
-              </g>
-              <rect x="300" y="222" width="38" height="30" rx="7" fill="#cfe6b6" transform="rotate(-9 319 237)"/>
-              <!-- Sierra Nevada -->
-              <g fill="none" stroke="#d9c4a2" stroke-width="1.6">
-                <path d="M480 30c-44 8-78 44-72 96 5 46 38 74 72 80"/>
-                <path d="M480 62c-30 8-52 34-48 70 4 32 26 52 48 56"/>
-                <path d="M480 94c-18 6-28 22-26 42 2 18 14 30 26 32"/>
-              </g>
-              <path d="M480 112c-8 3-12 12-11 22 1 8 5 13 11 14Z" fill="#fff"/>
-              <!-- Bahía -->
-              <path d="M0 0h168c-18 38 22 70 2 110-16 32-58 42-50 88 8 44 58 58 44 108-6 22-18 38-16 54H0Z" fill="url(#am-sea)"/>
-              <path d="M168 0c-18 38 22 70 2 110-16 32-58 42-50 88 8 44 58 58 44 108-6 22-18 38-16 54" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
-              <g fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" opacity=".75">
-                <path d="M24 60q8-6 16 0t16 0"/>
-                <path d="M92 26q8-6 16 0t16 0"/>
-                <path d="M62 250q8-6 16 0t16 0"/>
-                <path d="M26 318q8-6 16 0t16 0"/>
-              </g>
-              <!-- El Morro -->
-              <path d="M52 172c2-14 16-22 28-16 10 5 12 17 4 23-9 7-34 8-32-7Z" fill="#e6d3b3" stroke="#cdb48c" stroke-width="1.5"/>
-              <rect x="67" y="146" width="6" height="16" rx="1" fill="#fff" stroke="#14213d" stroke-opacity=".35"/>
-              <path d="M66 147h8l-4-7Z" fill="#ff6b4a"/>
-              <!-- Aquí estoy -->
-              <g class="map-pin">
-                <ellipse class="pin-pulse" cx="236" cy="206" rx="16" ry="6" fill="#ff6b4a"/>
-                <ellipse class="pin-pulse pin-pulse--2" cx="236" cy="206" rx="16" ry="6" fill="#ff6b4a"/>
-                <path d="M236 206c-13-15-20-24-20-34a20 20 0 0 1 40 0c0 10-7 19-20 34Z" fill="#ff6b4a" stroke="#fff" stroke-width="3"/>
-                <circle cx="236" cy="172" r="7.5" fill="#fff"/>
-              </g>
-            </svg>
-            </div>
-          </figure>
-
-          <div class="about-copy">
-            <p class="eyebrow">Sobre mí</p>
-            <h2 id="sobre-mi-title">Hola, soy <span class="gold-i">Diego</span></h2>
-            <p>Soy desarrollador freelance en Santa Marta y trabajo con herramientas de inteligencia artificial para ayudar a negocios locales a vender más y trabajar menos. Conozco cómo se mueve el comercio aquí, y como estoy en la ciudad, podemos reunirnos en persona cuando lo necesites.</p>
-          </div>
-        </div>
       </div>
     </section>
 
